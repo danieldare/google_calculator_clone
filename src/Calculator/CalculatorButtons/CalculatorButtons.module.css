@@ -1,0 +1,44 @@
+.calcultor_buttons {
+  display: grid;
+  grid-template-columns: 1.1fr 1.5fr;
+  margin: 10px 0;
+  grid-column-gap: 10px;
+}
+
+.tri_operations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.basic_operations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  border-radius: 3px;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  background: #dfe1e5;
+  border: 1px solid #dfe1e5;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #d6d6d6;
+  cursor: pointer;
+}
+
+.btn_num {
+  background: #f1f3f4;
+  border: 1px solid #f1f3f4;
+}
+
+.btn_equal {
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  color: #fff;
+}
